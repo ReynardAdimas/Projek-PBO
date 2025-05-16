@@ -1,4 +1,6 @@
-public class JajarGenjang implements BangunGeometri{
+package Bangun2D;
+
+public class JajarGenjang implements BangunGeometri {
     private double sisiMiring;
     private double alas;
     private double tinggi;

@@ -1,4 +1,6 @@
-public class Trapesium implements BangunGeometri{
+package Bangun2D;
+
+public class Trapesium implements BangunGeometri {
     protected double sisiAtas;
     protected double sisiBawah;
     protected double tinggi;

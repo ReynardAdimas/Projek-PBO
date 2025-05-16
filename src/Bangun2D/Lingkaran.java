@@ -1,6 +1,8 @@
+package Bangun2D;
+
 import java.lang.Math;
 
-public class Lingkaran implements BangunGeometri{
+public class Lingkaran implements BangunGeometri {
     private double r;
 
     public Lingkaran(double r){

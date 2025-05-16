@@ -1,6 +1,8 @@
+package Bangun2D;
+
 import java.lang.Math;
 
-public class Segitiga implements BangunGeometri{
+public class Segitiga implements BangunGeometri {
     private double alas;
     private double tinggi;
     private double sisiA;

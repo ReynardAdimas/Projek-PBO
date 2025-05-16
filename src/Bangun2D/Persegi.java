@@ -1,4 +1,6 @@
-public class Persegi implements BangunGeometri{
+package Bangun2D;
+
+public class Persegi implements BangunGeometri {
     private double sisi;
 
     public Persegi(double sisi) {

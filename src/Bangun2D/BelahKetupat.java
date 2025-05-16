@@ -1,4 +1,6 @@
-public class BelahKetupat implements BangunGeometri{
+package Bangun2D;
+
+public class BelahKetupat implements BangunGeometri {
     private double diagonal;
     private double sisi;
 

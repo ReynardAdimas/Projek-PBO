@@ -1,4 +1,6 @@
-public class PersegiPanjang implements BangunGeometri{
+package Bangun2D;
+
+public class PersegiPanjang implements BangunGeometri {
     private double panjang;
     private double lebar;
 

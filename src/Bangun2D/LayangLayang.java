@@ -1,4 +1,6 @@
-public class LayangLayang implements BangunGeometri{
+package Bangun2D;
+
+public class LayangLayang implements BangunGeometri {
     private double diagonalPanjang;
     private double diagonalPendek;
     private double sisiPanjang;
