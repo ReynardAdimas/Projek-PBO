@@ -1,8 +1,8 @@
 public class LayangLayang implements BangunGeometri{
-    protected double diagonalPanjang;
-    protected double diagonalPendek;
-    protected double sisiPanjang;
-    protected double sisiPendek;
+    private double diagonalPanjang;
+    private double diagonalPendek;
+    private double sisiPanjang;
+    private double sisiPendek;
 
     public LayangLayang(double diagonalPanjang, double diagonalPendek, double sisiPanjang, double sisiPendek) {
         this.diagonalPanjang = diagonalPanjang;
@@ -11,7 +11,33 @@ public class LayangLayang implements BangunGeometri{
         this.sisiPendek = sisiPendek;
     }
 
+    // getter
+    public double getDiagonalPanjang() {
+        return diagonalPanjang;
+    }
+    public double getDiagonalPendek() {
+        return diagonalPendek;
+    }
+    public double getSisiPanjang() {
+        return sisiPanjang;
+    }
+    public double getSisiPendek() {
+        return sisiPendek;
+    }
 
+    // setter
+    public void setDiagonalPanjang(double diagonalPanjang) {
+        this.diagonalPanjang = diagonalPanjang;
+    }
+    public void setDiagonalPendek(double diagonalPendek) {
+        this.diagonalPendek = diagonalPendek;
+    }
+    public void setSisiPanjang(double sisiPanjang) {
+        this.sisiPanjang = sisiPanjang;
+    }
+    public void setSisiPendek(double sisiPendek) {
+        this.sisiPendek = sisiPendek;
+    }
 
     @Override
     public double hitungLuas() {
